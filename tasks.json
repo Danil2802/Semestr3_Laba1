@@ -1,0 +1,130 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Lab1 (main1.cpp)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "src/main1.cpp",
+        "src/Array.cpp",
+        "src/FullBinaryTree.cpp",
+        "src/DoublyLinkedList.cpp",
+        "src/HashTable.cpp",
+        "src/Queue.cpp",
+        "src/SinglyLinkedList.cpp",
+        "src/Stack.cpp",
+        "-Iinclude",
+        "-o",
+        "lab1"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "Build Lab2.1 (main2.1.cpp)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "src/main2.1.cpp",
+        "src/Stack.cpp",
+        "-Iinclude",
+        "-o",
+        "lab2.1"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "Build Lab2.2 (main2.2.cpp)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "src/main2.2.cpp",
+        "src/HashTable.cpp",
+        "-Iinclude",
+        "-o",
+        "lab2.2"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "Build Lab2.31 (main2.31.cpp)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "src/main2.31.cpp",
+        "src/HashTable.cpp",
+        "-Iinclude",
+        "-o",
+        "lab2.31"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "Build Lab2.32 (main2.32.cpp)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "src/main2.32.cpp",
+        "-Iinclude",
+        "-o",
+        "lab2.32"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "Build Lab2.4 (main2.4.cpp)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "src/main2.4.cpp",
+        "src/Array.cpp",
+        "-Iinclude",
+        "-o",
+        "lab2.4"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "Build Lab2.5 (main2.5.cpp)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "src/main2.5.cpp",
+        "src/BinarySearchTree.cpp",
+        "-Iinclude",
+        "-o",
+        "lab2.5"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "Build Lab2.6 (main2.6.cpp)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "src/main2.6.cpp",
+        "src/HashTable.cpp",
+        "-Iinclude",
+        "-o",
+        "lab2.6"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+  ]
+}
